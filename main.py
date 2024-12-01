@@ -3,6 +3,8 @@ import random
 from PyQt6 import QtWidgets, uic, QtGui
 
 
+# nothing
+
 class CircleApp(QtWidgets.QWidget):
     def __init__(self):
         super(CircleApp, self).__init__()
