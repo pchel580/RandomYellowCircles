@@ -1,6 +1,6 @@
 import sys
 import random
-from PyQt5 import QtWidgets, uic, QtGui
+from PyQt6 import QtWidgets, uic, QtGui
 
 
 class CircleApp(QtWidgets.QWidget):
@@ -24,4 +24,4 @@ if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = CircleApp()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
